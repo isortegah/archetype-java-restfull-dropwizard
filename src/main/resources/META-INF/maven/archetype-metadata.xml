@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<archetype-descriptor name="api-rest-full-dropwizard-archetype">
+		<requiredProperties>
+			<requiredProperty key="groupId">
+				<defaultValue>com.isortegah</defaultValue>
+			</requiredProperty>
+			<requiredProperty key="name"/>
+		</requiredProperties>
+		  <fileSets>
+			<fileSet filtered="true" packaged="true">
+          		<directory></directory>
+          		<includes>
+            		<include>*.xml</include>
+          		</includes>
+        	</fileSet>
+		</fileSets>
+    </archetype-descriptor>
