@@ -5,4 +5,5 @@ mvn archetype:generate											\
 	-DarchetypeVersion=0.1.0-SNAPSHOT							\
 	-DgroupId=com.isortegah.apirest								\
 	-DartifactId=api-rest-demo									\
-	-Dname=api-rest-demo
+	-Dname=api-rest-demo										\
+	-Dversion=1.0-SNAPSHOT

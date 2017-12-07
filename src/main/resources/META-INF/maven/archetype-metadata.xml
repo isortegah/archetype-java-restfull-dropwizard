@@ -11,11 +11,13 @@
 		<modules>
 			<module name="rest" id="rest" dir="rest">
 				<fileSets>
-					<directory>src/main/java</directory>
-					<includes>
-						<include>**/*.java</include>
-						<include>**/*</include>
-					</includes>
+					<fileSet filtered="true" packaged="false">
+						<directory>src/main/java</directory>
+						<includes>
+							<include>**/*.java</include>
+							<include>**/*</include>
+						</includes>
+					</fileSet>
 				</fileSets>
 			</module>
 		</modules>
