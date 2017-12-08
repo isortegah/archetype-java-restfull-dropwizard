@@ -8,10 +8,7 @@
     <name>${name}</name>
     <modules>
         <module>rest</module>
-        <module>dtos</module>
-        <module>aws</module>
-        <module>authentication</module>
-        <module>services</module>
+        
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

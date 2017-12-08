@@ -24,3 +24,4 @@ cd api-rest-demo
 pwd
 tree
 cat rest/src/main/java/com/isortegah/rest/RestConfiguration.java | head -n 10 -v
+mvn install
